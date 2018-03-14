@@ -5,14 +5,16 @@ import open from 'open';
 import webpack from 'webpack';
 import config from '../webpack.config.dev';
 
+import webpackDevMiddleware from "webpack-dev-middleware";
+
 /* eslint-disable no-console */
 
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
 
-app.use(require('webpack-dev-middleware')(compiler, {
-  noInfo: true,
+app.use(webpackDevMiddleware(compiler, {
+  // noInfo: true,
   publicPath: config.output.publicPath
 }));
 
