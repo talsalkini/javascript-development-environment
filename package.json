@@ -18,7 +18,7 @@
     "start-mockapi": "json-server --watch src/api/db.json --port 3001",
     "clean-dist": "rimraf ./dist && mkdir dist",
     "prebuild": "npm-run-all clean-dist test lint",
-    "build": "babel-node buildScripts/build.js",
+    "build": "babel-node --trace-deprecation buildScripts/build.js",
     "postbuild": "babel-node buildScripts/distServer.js",
     "deploy": "surge ./dist"
   },
@@ -43,7 +43,7 @@
     "eslint-plugin-import": "2.9.0",
     "eslint-watch": "3.1.3",
     "express": "4.16.3",
-    "extract-text-webpack-plugin": "^3.0.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "handlebars": "^4.0.11",
     "html-webpack-plugin": "3.0.6",
     "jquery": "^3.3.1",
