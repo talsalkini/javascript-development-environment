@@ -2,7 +2,7 @@
 
 # JavaScript Development Environment
 
-This project is forked from a ["generic JavaScript development environment"](https://github.com/coryhouse/javascript-development-environment) built from scratch in ["Building a JavaScript Development Environment" on Pluralsight](https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents). This a starter kit not tied to any specific JS framework.
+This project is forked from a ["generic JavaScript development environment"](https://github.com/coryhouse/javascript-development-environment) built from scratch in ["Building a JavaScript Development Environment" on Pluralsight](https://app.pluralsight.com/library/courses/javascript-development-environment/table-of-contents). This a starter kit is not tied to any specific JS framework.
 
 
 ## Get Started
@@ -54,6 +54,9 @@ This will run the automated build process, start up a webserver, and open the ap
 | url-loader                  | Add url loading support to Webpack                                                                        |
 | webpack                     | Bundler with plugin system and integrated development server                                              |
 | webpack-dev-middleware      | Adds middleware support to webpack                                                                        |
+|asd |asdf
+    |
+    
 | webpack-hot-middleware      | Adds hot reloading to webpack      
            |
 | jquery                      | Adds jquery support                                                                                       |
