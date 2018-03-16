@@ -54,11 +54,7 @@ This will run the automated build process, start up a webserver, and open the ap
 | url-loader                  | Add url loading support to Webpack                                                                        |
 | webpack                     | Bundler with plugin system and integrated development server                                              |
 | webpack-dev-middleware      | Adds middleware support to webpack                                                                        |
-|asd |asdf
-    |
-    
-| webpack-hot-middleware      | Adds hot reloading to webpack      
-           |
-| jquery                      | Adds jquery support                                                                                       |
+| webpack-hot-middleware      | Adds hot reloading to webpack                                                                        |
+| jquery                      | Adds jquery support                                                                         |
 | handlebars                  | Adds js templating framework                                                                  
            
