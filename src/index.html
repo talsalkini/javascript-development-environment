@@ -17,5 +17,25 @@
 
           </tbody>
         </table>
+
+
+    <script id="todo-template" type="text/x-handlebars-template">
+    <input id="todo-input"/>
+        <ul id="todo-list">
+        </ul>
+    </script>
+        <!-- template -->
+    <script id="todo-template-items" type="text/x-handlebars-template">
+        {{#each view_list}}
+            <li class="todo-item">
+                <input class="input" type="checkbox" {{checked}}>
+                <div class="{{checked}}">{{val}}</div>
+                <div class="remove">X</div>
+            </li>
+        {{/each}}
+    </script>
+
+    <div id="app-main">
+    </div>
     </body>
 </html>

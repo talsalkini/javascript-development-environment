@@ -57,3 +57,6 @@ var data = { "name": "Alan", "hometown": "Somewhere, TX",
 var result = template(data);
 
 $('h1').html(result);
+
+import './mvc';
+
