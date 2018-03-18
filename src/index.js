@@ -42,14 +42,11 @@ console.log(`I would pay ${courseValue} for this awesome course!`); //eslint-dis
 //---------------------------------------------------------------
 //----------------- Testing jquery -----------------------------
 //---------------------------------------------------------------
-import $ from 'jquery';
 console.log($('h1').text()); //eslint-disable-line no-console
 
-//---------------------------------------------------------------
-//----------------- Testing handlebars --------------------------
-//---------------------------------------------------------------
-import Handlebars from 'handlebars';
-
+// ---------------------------------------------------------------
+// ----------------- Testing handlebars --------------------------
+// ---------------------------------------------------------------
 var source = "<p>Hello, my name is {{name}}. I am from {{hometown}}. I have " +
              "{{kids.length}} kids:</p>" +
              "<ul>{{#kids}}<li>{{name}} is {{age}}</li>{{/kids}}</ul>";
